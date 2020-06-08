@@ -1,0 +1,29 @@
+这是static文件夹中的统一接口文档
+
+注册页面：signUp.html
+form的相关属性：
+id="register" name="myform" action="" method="post"
+
+第一个input是用户名（长度为6的字母、数字组合）
+这个input的相关属性：
+id="username" type="text" name="username" 
+
+第二个input是密码（长度为6的字母、数字组合）
+这个input的相关属性：
+id="password" type="password" name="password" 
+
+第三个input是密码（长度为6的字母、数字组合）
+这个input的相关属性：
+id="password2" type="password" name="password2" 
+
+登录页面：logIn.html
+form的相关属性：
+id="register" name="myform" action="" method="post"
+
+第一个input是用户名（长度为6的字母、数字组合）
+这个input的相关属性：
+id="username" type="text" name="username" 
+
+第二个input是密码（长度为6的字母、数字组合）
+这个input的相关属性：
+id="password" type="password" name="password" 

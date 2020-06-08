@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: #f0f0f0;
+    border:2px solid #a1a1a1;
+}
+
+.box .header {
+    height: 50px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 100%;
+    grid-template-areas: 'a b';
+    justify-items: center;
+    align-items: center;
+}
+
+.box .header .headline {
+   grid-area: a;
+   font-size: 65%;
+}
+
+.box .header .jump-link {
+    grid-area: b;
+    /* color: black; */
+    font-size: 80%;
+}
+
+.jump-link a {
+    text-decoration:none;
+}
+
+.jump-link a:visited {
+    color: black;
+}
+
+.jump-link a:hover {
+    color: red;
+}
+
+.jump-link a:active {
+    color: red;
+}
+
+
+.box #register {
+    display: block;
+    height: 280px;
+    padding: 6% 4%;
+    background: #f0f0f0;
+}
+
+#register #role {
+    width: 324px;
+    background: #fff;
+    /* margin-bottom: 26px; */
+    border: 1px solid #ccc;
+    padding: 4%;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 85%;
+    color: #555;
+}
+
+#register #remind_0 {
+    width: 80%;
+    height: 26px;
+    /* margin: 0 auto 2px; */
+    /* margin-left: 2px; */
+    text-align: left;
+    text-indent: 5px;
+    font-size: 0.6em;
+    color: #f00;
+}
+
+#register #remind_1 {
+    width: 80%;
+    height: 26px;
+    /* margin: 0 auto 2px; */
+    /* margin-left: 2px; */
+    text-align: left;
+    text-indent: 5px;
+    font-size: 0.6em;
+    color: #f00;
+}
+
+#register #remind_2 {
+    width: 80%;
+    height: 26px;
+    /* margin-left: 2px; */
+    text-align: left;
+    text-indent: 5px;
+    font-size: 0.6em;
+    color: #f00;
+}
+
+
+#register input[type="text"] {
+    width: 92%;
+    background: #fff;
+    /* margin-bottom: 4%; */
+    border: 1px solid #ccc;
+    padding: 4%;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 85%;
+    color: #555;
+}
+
+#register input[type="password"] {
+    width: 92%;
+    background: #fff;
+    /* margin-bottom: 4%; */
+    border: 1px solid #ccc;
+    padding: 4%;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 85%;
+    color: #555;
+} 
+
+#register #btn-submit {
+    width: 100%;
+    background: #888888;
+    border: 0;
+    padding: 4%;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 100%;
+    color: #fff;
+}

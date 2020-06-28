@@ -1,0 +1,19 @@
+/* 顶部区域 */
+.top{
+    width: 100%;
+    height: 135px;
+    background-color: white;
+    margin-top: 20px;
+    
+}
+
+.top .top-box{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+
+
+
+

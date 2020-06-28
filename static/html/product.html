@@ -1,0 +1,97 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>商品详情</title>
+        <link rel="stylesheet" href="{% static '/css/product/base.css'%}">
+        <link rel="stylesheet" href="{% static '/css/product/top-base.css'%}">
+        <link rel="stylesheet" href="{% static '/css/product/top-left.css'%}">
+        <link rel="stylesheet" href="{% static '/css/product/top-right.css' %}">
+        <link rel="stylesheet" href="{% static '/css/product/w.css' %}">
+        <link rel="stylesheet" href="{% static '/css/product/content-base.css'%}">
+        <link rel="stylesheet" href="{% static '/css/product/content-right.css'%}">
+        <script type="text/javascript" src="{% static '/js/test.js' %}"></script>
+    </head>
+
+    <body>
+        <div class="top">
+            <div class="top-box">
+                <div class="top-left">
+                    <img src="{% static '/images/logo.jfif' %}">
+                </div>
+
+                <div class="top-right">
+                    <div class="top-search">
+                        <form action="">
+                            <input type="text" placeholder="请输入..." name="" id=""><button>搜索</button>
+                        </form>
+                    </div>
+
+                    <div class="top-dropdown">
+                        <a href="/dropdown/">
+                        <img id=dropdown-pic src="{% static '/images/dropdown.png' %}">
+                        <span>我的购物车</span>
+                            </a>
+                    </div>
+                    
+                    <div class="top-personal">
+                        <img src="{% static '/images/personal.png' %}">
+                        <span>个人信息</span>
+                    </div>
+
+                    <div class="top-nav">
+                        <ul>
+                            <li><a href="#">秒杀</a></li>
+                            <li><a href="#">优惠券</a></li>
+                            <li><a href="#">PLUS会员</a></li>
+                            <li><a href="#">品牌闪购</a></li>
+                            <li><a href="#">拍卖</a></li>
+                            <li><a href="#">京东时尚</a></li>
+                            <li><a href="#">京东超市</a></li>
+                            <li><a href="#">京东生鲜</a></li>
+                            <li><a href="#">京东国际</a></li>
+                            <li><a href="#">京东金融</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       <div class="w">
+           <span class="store" id='store'>商家:{{ result.listiem.0.fields.seller_id }}</span>
+       </div>
+
+       <div class="content">
+           <div class="content-left">
+               <img src="{{ result.goods_photo }}">
+           </div>
+
+           <div class="content-right">
+                <ul class="desc">
+
+                    <li id="name">名称：{{ result.goods_name}}</li>
+                    <li id="price">白银价：￥{{ result.listiem.0.fields.prices}}</li>
+                    <li id="sales">总销量：{{ result.sale }}</li>
+                    <li id="inventory">库存：{{ result.listiem.0.fields.inventory }}</li>
+                    <li>规格：</li>
+
+                </ul>
+
+
+                <div class="attr">
+                    <form id="product-attr" name="product-attr"  action="/product/?str=1" method="post">{% csrf_token %}
+                        {% for data in result.listiem %}
+                       <input class="test1" id="{{ data.pk }}" type="radio" name="attribute" value="{{ data.fields.attributes}}">{{ data.fields.attributes }}
+                    {% endfor %}
+                        <input class="input-id" style="display: none"  name="g_id" >
+                    </br>
+
+                        <button id="btn-submit" name="submit" >加入购物车</button>
+                    </form>
+                </div>
+           </div>
+       </div>
+
+    </body>
+</html>

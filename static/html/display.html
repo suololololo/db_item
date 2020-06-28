@@ -1,0 +1,118 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>商品展示</title>
+        <link rel="stylesheet" href="{% static '/css/display/base.css' %}">
+        <link rel="stylesheet" href="{% static '/css/display/top-base.css' %}">
+        <link rel="stylesheet" href="{% static '/css/display/content-base.css' %}">
+        <link rel="stylesheet" href="{% static '/css/display/bar.css' %}">
+        <link rel="stylesheet" href="{% static '/css/display/nav.css' %}">
+        <link rel="stylesheet" href="{% static '/css/display/show-product.css' %}">
+       
+        
+    </head>
+
+<body>
+    <div class="top">
+        <div class="logo">
+            <img src="{% static '/images/logo2.png' %}">
+         </div>
+
+        <div class="search">
+            <form action="">
+                <input type="text" placeholder="请输入..." name="" id=""><button>搜索</button>
+            </form>
+        </div>
+
+        <div class="dropdown">
+            <img id=dropdown-pic src="{% static '/images/dropdown.png'%}">
+            <a href="/dropdown/"><span>我的购物车</span></a>
+        </div>
+
+        <div class="person">
+            <img src="{% static '/images/personal.png'%}">
+            <span>个人信息</span>
+        </div>
+    </div>
+
+    <div class="bar">
+        <ul>
+            <li class="digital">全部数码分类</li>
+            <li>白银时尚</li>
+            <li>美妆馆</li>
+            <li>超市</li>
+            <li>生鲜</li>
+            <li>白银国际</li>
+            <li>闪购</li>
+            <li>拍卖</li>
+            <li>金融</li>
+        </ul>
+    </div>
+
+    <div class="w">
+        
+    </div>
+
+    <div class="content">
+        <div class="nav">
+            <div class="hot">
+                <span class="nav-headline">
+                    <img src="{% static '/images/hot.png' %}">热门品牌</span>
+                <span class="item-1">苹果</span>
+                <span class="item-2">华为</span>
+                <span class="item-3">oppo</span>
+                <span class="item-4">vivo</span>
+            </div>
+
+            <div class="computer">
+                <span class="nav-headline">
+                    <img src="{% static '/images/computer.png'%}">电脑整机</span>
+                <span class="item-1">轻薄本</span>
+                <span class="item-2">游戏本</span>
+                <span class="item-3">台式机</span>
+                <span class="item-4">一体机</span>
+            </div>
+
+            <div class="video">
+                <span class="nav-headline">
+                    <img src="{% static '/images/earphone.png' %}">娱乐影音</span>
+                <span class="item-1">有线耳机</span>
+                <span class="item-2">蓝牙耳机</span>
+                <span class="item-3">头戴耳机</span>
+                <span class="item-4">家居音箱</span>
+            </div>
+
+            <div class="game">
+                <span class="nav-headline">
+                    <img src="{% static '/images/game.png' %}">游戏设备</span>
+                <span class="item-1" >机械键盘</span>
+                <span class="item-2">游戏鼠标</span>
+                <span class="item-3">游戏手柄</span>
+                <span class="item-4">游戏机</span>
+            </div>
+        </div>
+
+
+
+        <div class="show" id="goodList">
+
+            {% for i in data %}
+            <div class="goods">
+                <div class="p-img"><img src="{{ i.fields.goods_photo }}"></div>
+                <div class="p-price">￥{{ i.fields.prices }}</div>
+                <div class="p-name">{{ i.fields.goods_name }}</div>
+                <div class="p-shop">{{ i.fields.seller_name }}</div>
+                <div class="p-link"><a href="/product/?str={{ i.pk }}" target="_blank">查看详情</a></div>
+            </div>
+{% endfor %}
+
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>

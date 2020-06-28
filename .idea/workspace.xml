@@ -2,10 +2,162 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="374f8aa7-2ff6-4c05-b4c9-6e3473675976" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_item/CsrfMiddleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_item/migrations/0002_auto_20200625_2020.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_item/migrations/0003_auto_20200625_2049.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_item/migrations/0004_auto_20200626_1523.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_item/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/car_sECbsQc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/dropdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/dropdown_uqTa1FE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/earphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/earphone_WHbrceK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/financi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/game_WFKSHym.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/goods-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/goods-1_5uwouX0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/goods-1_D5LWFQg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/goods-1_Dq6JOsW.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/goods-1_Qfn3zs3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/goods-1_WILBkfs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/goods-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/goods-2_85mG6wS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/goods-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/goods-3_5LnHQWk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/goods-3_5oVweKK.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/goods-3_IYOkiJI.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/goods-3_URkPrtH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/goods-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/goods-6_lI9Ehoi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/goods-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/hot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/iphone11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/iphone11_MVpcjSJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/movie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/movie_zkBQ2IP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/personal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/phone-charge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/pic3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/pic3_hduAe6C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/travel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/travel_DUsMsSJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/travel_MXpvue3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/travel_U7RRpcM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/travel_ZTSJa6s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/travel_kvcGPmX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/travel_mEXqMBQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/travel_wajEwKD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/微信图片_20200328114913.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/backstage/bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/backstage/bottom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/backstage/itemlist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/backstage/top.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/backstage/w.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/display/bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/display/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/display/content-base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/display/nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/display/show-product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/display/top-base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/dropdown/bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/dropdown/bottom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/dropdown/item-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/dropdown/settlement.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/dropdown/top.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/dropdown/w.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/index/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/index/content-base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/index/content-left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/index/content-mid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/index/content-right.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/index/top-base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/index/top-left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/index/top-right.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/newSKU/newSKU.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/newitem/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/newitem/box-left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/newitem/box-right.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/order/bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/order/item-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/order/nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/order/top.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/order/w.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/product/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/product/content-base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/product/content-right.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/product/top-base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/product/top-left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/product/top-right.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/product/w.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/uploadIMG/uploadIMG.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/html/400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/html/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/html/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/html/backstage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/html/display.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/html/dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/html/newSKU.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/html/newitem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/html/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/html/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/html/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/html/uploadIMG.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/computer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/dropdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/earphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/financi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/goods-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/goods-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/goods-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/goods-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/goods-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/goods-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/goods-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/hot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/hotel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/iphone11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/logo.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/lottery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/movie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/personal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/phone-charge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/travel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/backstage/backstage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/dropdown/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/dropdown/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/index/slideshow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jQuery/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/newitem/newitem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/uploadIMG/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/uploadIMG/uploadIMG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/db.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/db.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.lnk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_item/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_item/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_item/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_item/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_item/migrations/0002_auto_20200601_2045.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_item/migrations/0003_auto_20200601_2047.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_item/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_item/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db_item/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_item/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_item/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_item/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db_item/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_item/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/html/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/html/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/html/register.html" afterDir="false" />
     </list>
@@ -15,89 +167,102 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/db$models.coverage" NAME="models Coverage Results" MODIFIED="1593072414025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db_item" />
+  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/html/dropdown.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3024">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/html/newitem.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1064">
+              <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/html/newSKU.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/html/order.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/order/w.css">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_item/views.py">
+        <entry file="file://$PROJECT_DIR$/static/html/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2044">
+              <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_item/migrations/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_item/migrations/0003_auto_20200601_2047.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_item/migrations/0002_auto_20200601_2045.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_item/urls.py">
+        <entry file="file://$PROJECT_DIR$/static/html/backstage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="728">
+              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_item/models.py">
+        <entry file="file://$PROJECT_DIR$/static/css/backstage/top.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_item/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+            <state relative-caret-position="560">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requirement.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/static/js/dropdown/dropdown.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="137" column="68" selection-start-line="137" selection-start-column="68" selection-end-line="137" selection-end-column="68" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -113,11 +278,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>static</find>
-      <find>Debug</find>
     </findStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -128,24 +289,24 @@
         <option value="$PROJECT_DIR$/db/urls.py" />
         <option value="$PROJECT_DIR$/static/html/index.html" />
         <option value="$PROJECT_DIR$/db_item/urls.py" />
+        <option value="$PROJECT_DIR$/db/settings.py" />
         <option value="$PROJECT_DIR$/static/html/regsiter.html" />
         <option value="$PROJECT_DIR$/static/css/logIn.css" />
         <option value="$PROJECT_DIR$/static/css/signUp.css" />
         <option value="$PROJECT_DIR$/static/html/signUp.html" />
         <option value="$PROJECT_DIR$/static/html/logIn.html" />
         <option value="$PROJECT_DIR$/db_item/models.py" />
-        <option value="$PROJECT_DIR$/static/html/register.html" />
         <option value="$PROJECT_DIR$/static/html/login.html" />
+        <option value="$PROJECT_DIR$/static/html/register.html" />
         <option value="$PROJECT_DIR$/db_item/views.py" />
-        <option value="$PROJECT_DIR$/db_item/tests.py" />
-        <option value="$PROJECT_DIR$/db/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="width" value="1620" />
-    <option name="height" value="1060" />
+    <option name="x" value="281" />
+    <option name="y" value="40" />
+    <option name="width" value="1520" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -153,7 +314,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -161,10 +321,40 @@
               <item name="db" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
+            <path>
+              <item name="db" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="db" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="db" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="db" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="html" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="db" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="db" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dropdown" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,15 +427,11 @@
       <workItem from="1590898566784" duration="728000" />
       <workItem from="1590975889318" duration="3899000" />
       <workItem from="1590991541405" duration="7401000" />
-      <workItem from="1591184533933" duration="9520000" />
-      <workItem from="1591322881187" duration="488000" />
-      <workItem from="1591444412966" duration="1303000" />
-      <workItem from="1591581988372" duration="888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40331000" />
+    <option name="totallyTimeSpent" value="27541000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,15 +443,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="225" y="32" width="1216" height="648" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27680966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2357513" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.21529745" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04526167" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -273,8 +459,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.16572239" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.19121814" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.18953323" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -285,17 +471,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/db_item/views.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/db/__init__.py">
@@ -312,6 +487,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/html/logout.html" />
+    <entry file="file://$PROJECT_DIR$/db_item/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -341,11 +519,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Database-project/static/API文档.txt">
+    <entry file="file://$PROJECT_DIR$/db/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289" />
+        <state relative-caret-position="28">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Database-project/static/API文档.txt" />
     <entry file="file://$USER_HOME$/Database-project/static/css/logIn.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -367,72 +548,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Database-project/static/html/logIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/logIn.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/signUp.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/logIn.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Database-project/static/html/logIn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/html/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/html/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="224">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_item/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_item/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_item/migrations/0003_auto_20200601_2047.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_item/migrations/0002_auto_20200601_2045.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/db_item/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="224">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -442,27 +580,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db_item/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="259">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_item/tests.py">
+    <entry file="file://$PROJECT_DIR$/static/css/logIn.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="332">
+          <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/settings.py">
+    <entry file="file://$PROJECT_DIR$/static/html/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+        <state relative-caret-position="148">
+          <caret line="22" column="23" selection-start-line="20" selection-start-column="12" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirement.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/static/html/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_item/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

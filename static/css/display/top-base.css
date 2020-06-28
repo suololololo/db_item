@@ -1,0 +1,94 @@
+/* 顶部区域 */
+.top{
+    width: 1140px;
+    height: 70px;
+    background-color: white;
+    margin: 20px auto 0 auto;
+    /* overflow: auto; */
+}
+
+.top .logo {
+    float: left;
+}
+
+.top .logo img {
+    height: 55px;
+}
+
+.top .search {
+    width: 470px;
+    height: 36px;
+    float: left;
+    /* border: 1px solid red; */
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.top .search form {
+    width: 100%;
+    height: 100%;
+    /* background:rgba(0,0,0,.2); */
+    padding: 0;
+    border: none;
+    border-radius:5px;  
+}
+
+.top .search input[type="text"]{
+    width: 400px;
+    height: 100%;
+    background-color: #eeeeee;
+    border:none;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    text-indent: 5px;
+    /* font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma'; */
+    font-style:italic;
+}
+
+.top .search button {
+    width: 50px;
+    height: 100%;
+    background-color:#d93c3c;
+    color:#fff;
+    border:none;
+    border-radius:0 5px 5px 0;
+}
+
+.top  .dropdown {
+    width: 132px;
+    height: 36px;
+    float: left;
+    border: 1px solid #999;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 36px;
+}
+
+.dropdown #dropdown-pic {
+    height: 15px;
+}
+
+.top .person {
+    float: left;
+    width: 120px;
+    margin-left: 40px;
+    margin-top: 15px;
+    /* font-size: 18px; */
+    position: relative;
+}
+
+.person img {
+    height: 25px;
+}
+
+.person span {
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+

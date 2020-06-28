@@ -1,0 +1,83 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>上架新商品</title>
+        <link rel="stylesheet" href="{% static '/css/newitem/base.css'%}">
+        <link rel="stylesheet" href="{% static '/css/newitem/box-right.css' %}">
+        <link rel="stylesheet" href="{% static '/css/newitem/box-left.css' %}">
+       
+        <script type="text/javascript" src="{% static '/js/jQuery/jquery-1.12.4.min.js' %}"></script>
+        <script type="text/javascript" src="{% static '/js/newitem/newitem.js' %}"></script>
+    </head>
+
+<body>
+<div class="box">
+<div class="box-left">
+    <div class="title"><h1>上传商品图片</h1></div>
+    <div class="sizeHint">（图片大小不得超过2M）</div>
+    
+    <div class="content">
+        <div id="img">图片预览</div>
+        <form id="form1" action="">
+            <input type="file" name="file" id="pic" onchange="preview(this,'img')">
+        </form>
+        <div class="link">
+            <a href="/backstage/" id="link">返回后台管理页面</a>
+        </div>
+            
+    </div>
+        
+</div>
+
+
+<div class="box-right">
+    <div class="header"><h1>填写商品信息</h1></div>
+
+    <form id="new" name="myform"  action="/backstage/">
+          <select id="type" name="type">
+            <option value="a">数码</option>
+            <option value="man">男装</option>
+            <option value="woman">女装</option>
+        </select>
+
+        <p id="remind_0" class="hint">请选择商品类别</p>
+
+        <input id="name" type="text" name="name" 
+            placeholder="请输入商品名称"  >
+            
+        <p id="remind_1" class="hint"></p>
+
+        <input id="desc" type="text" name="desc" 
+            placeholder="请输入商品描述"  >
+            
+        <p id="remind_2" class="hint"></p>
+            
+         <input id="attr" type="text" name="attr" 
+            placeholder="请输入规格"  >
+            
+        <p id="remind_3" class="hint"></p>
+
+        <input id="price" type="text" name="price"   
+        placeholder="请输入价格￥"  
+        onkeyup="if(isNaN(value))execCommand('undo')" 
+        onafterpaste="if(isNaN(value))execCommand('undo')">
+
+        <p id="remind_4" class="hint"></p>
+
+        <input id="inventory" type="text" name="inventory" 
+            placeholder="请输入库存"  
+            onkeyup="if(isNaN(value))execCommand('undo')" 
+            onafterpaste="if(isNaN(value))execCommand('undo')">
+
+        <p id="remind_5" class="hint"></p>
+
+        <button id="btn-submit" type="submit" name="submit" >立即添加</button>
+    </form>
+</div>
+</div>
+
+</body>
+</html>

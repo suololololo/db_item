@@ -1,0 +1,109 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>我的订单</title>
+        <link rel="stylesheet" href="{% static '/css/display/base.css' %}">
+        <link rel="stylesheet" href="{% static '/css/order/top.css' %}">
+        <link rel="stylesheet" href="{% static '/css/order/w.css' %}">
+        <link rel="stylesheet" href="{% static '/css/order/nav.css' %}">
+        <link rel="stylesheet" href="{% static '/css/order/bar.css' %}">
+        <link rel="stylesheet" href="{% static '/css/order/item-list.css' %}">
+       
+       
+       
+    </head>
+
+<body>
+
+<div class="top">
+    <div class="logo">
+        <img src="{% static '/images/logo2.png' %}">
+        <div class="backtoindex"><a href="/index">回到首页</a></div>
+        <div class="title">用户ID：{{ u_name }}<span id=userID></span></div>
+    </div>
+
+    <div class="search">
+        <form action="">
+            <input type="text" placeholder="请输入..." name="" id=""><button>搜索</button>
+        </form>
+    </div>
+</div>
+
+<div class="mid">
+    <div class="nav">
+        <div class="header1">全部功能</div>
+        <ul class="function-list">
+            <li>我的购物车</li>
+            <li>我的发票</li>
+            <li>我的收藏</li>
+            <li>我的积分</li>
+            <li>我的优惠信息</li>
+            <li>我的足迹</li>
+            <li>评价管理</li>
+            <li>流量信息</li>
+        </ul>
+    
+        <div class="header2">客户服务</div>
+        <ul class="service">
+            <li>退款维权</li>
+            <li>价格保护</li>
+            <li>意见建议</li>
+            <li>购买咨询</li>
+            <li>交易纠纷</li>
+            <li>举报中心</li>
+        </ul>
+    </div>
+    
+    
+    <div class="w">
+           <div class="headline"> 所有订单 </div>
+    </div>
+        
+    <div class="bar">
+        <div class="t-good">商品</div>
+        <div class="t-price">单价</div>
+        <div class="t-quantity">数量 </div>
+        <div class="t-bill">实付款</div>
+        <div class="t-status">交易状态</div>
+        <div class="t-actions">操作</div>
+    </div>
+
+    <div class="itemlist" id="itemlist">
+        {% for data in data %}
+        <div class="item">
+            <div class="p-label">
+                <div class="p-orderID">订单号：<span class="orderID">{{ data.pk }}</span></div>
+                <div class="p-shop">商家:{{ data.fields.seller_name }}</div>
+                <div class="p-time">{{ data.fields.create_time }}</div>
+            </div>
+            <div class="p-info">
+                <div class="p-good">
+                    <div class="p-img"><img src="{{ data.fields.goods_photo }}"></div>
+                    <div class="p-name">{{ data.fields.goods_name }}</div><br>
+                    <div class="p-attr">{{ data.fields.attributes }}</div>
+                </div>
+                <div class="p-price">￥<span class="onlyPrice">{{ data.fields.prices }}</span></div>
+                <div class="p-quantity">{{ data.fields.goods_amount }}</div>
+                <div class="p-sum">￥<span class="onlySum">{{ data.fields.trade_amount }}</span></div>
+                <div class="p-status">交易成功</div>
+                <div class="p-actions">
+                    <a href="#">评价商品</a></br>
+                    <a href="#">申请售后</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
+        
+    </div>
+  
+    
+</div>
+
+
+
+
+</body>
+</html>

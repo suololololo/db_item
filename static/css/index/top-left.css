@@ -1,0 +1,11 @@
+.top .top-left{
+    width: 200px;
+    height: 100%;
+    float: left;
+    /* background-color: chartreuse; */
+    text-align: center;
+}
+
+.top .top-left>img{
+    height: 120px;
+}

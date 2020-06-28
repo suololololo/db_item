@@ -1,0 +1,40 @@
+.bar {
+    width: 870px;
+    height: 32px;
+    margin : 0 auto ;
+    background-color: #f5f5f5;
+    border: 1px solid #e8e8e8;
+}
+
+.bar .t-good {
+    float: left;
+    width: 330px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+.bar .t-sales {
+    float: left;
+    width: 270px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+.bar .t-actions {
+    float: left;
+    width: 265px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: #3c3c3c;
+}

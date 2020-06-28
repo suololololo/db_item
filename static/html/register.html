@@ -3,6 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+
         <link rel="stylesheet" href="{% static '/css/signUp.css' %}">
         <script type="text/javascript" src="{% static '/js/signUp.js' %}"></script>
     </head>
@@ -15,7 +16,8 @@
             <div class="jump-link"><a href="/login">已有账号？点此登录</a></div>
         </div>
         
-        <form id="register" name="myform" action="/register/" method="post">{% csrf_token %}
+        <form id="register" name="myform" action=""
+          method="post">{% csrf_token %}
             {% if message %}
                 <div style="text-align: center;color: red">{{ message }}</div>
             {% endif %}

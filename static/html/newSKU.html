@@ -1,0 +1,46 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>添加SKU</title>
+        <link rel="stylesheet" href="{% static '/css/display/base.css' %}">
+        <link rel="stylesheet" href="{% static '/css/newSKU/newSKU.css' %}">
+       
+    </head>
+
+<body>
+<div class="box">
+    <div class="header"><h1>添加SKU</h1></div>
+    <p style="text-align: center">{{ message }}</p>
+    <form id="newSKU" name="myform" action="/new/"    method="post">{% csrf_token %}
+        <input name="spu_id" value="{{ s_id }}" style="display: none">
+
+
+
+        <input id="attr" type="text" name="attr" 
+        placeholder="请输入规格"  >
+            
+        <p id="remind_2" class="hint"></p>
+            
+        <input id="price" type="text" name="price"   
+        placeholder="请输入价格￥"  
+        onkeyup="if(isNaN(value))execCommand('undo')" 
+        onafterpaste="if(isNaN(value))execCommand('undo')">
+            
+        <p id="remind_3" class="hint"></p>
+
+        <input id="inventory" type="text" name="inventory" 
+            placeholder="请输入库存"  
+            onkeyup="if(isNaN(value))execCommand('undo')" 
+            onafterpaste="if(isNaN(value))execCommand('undo')">
+
+        <p id="remind_4" class="hint"></p>
+
+        <button id="btn-submit" type="submit" name="submit" >立即添加</button>
+        <div id="link-box"><a href="/backstage/" id="link">返回后台管理页面</a></div>
+    </form>
+</div>
+
+</body>
+</html>

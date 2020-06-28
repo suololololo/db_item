@@ -1,0 +1,47 @@
+.content-right {
+    /* display: inline-block; */
+    float: left;
+    margin-left: 50px;
+    width: 500px;
+    height: 480px;
+}
+
+.content-right .desc {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.desc #name {
+    color: #666;
+}
+
+.desc #price {
+    color: #666;
+}
+
+.desc #sales {
+    color: #666;
+}
+
+
+.attr {
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
+}
+
+.attr span {
+    color: #666;
+}
+
+#product-attr #btn-submit {
+    width: 142px;
+    height: 46px;
+    margin-top: 20px;
+    background-color:  #df3033;
+    color: #ffffff;
+    border: 0;
+    font-size: 18px;
+}

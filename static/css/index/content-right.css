@@ -1,0 +1,51 @@
+.content .content-box .content-right{
+    width: 190px;
+    height: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: [c0]50% [c1]50% [c2];
+    grid-template-rows: [r0]25% [r1]25% [r2]25% [r3]25% [r4];
+    grid-template-areas: 'a b' 'c d' 'e f' 'g h';
+    justify-items: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.content-right img {
+    width: 30px;
+}
+
+
+.content-right .item-a {
+    grid-area: a;
+}
+
+
+.content-right .item-b {
+    grid-area: b;
+}
+
+
+.content-right .item-c {
+    grid-area: c;
+}
+
+.content-right .item-d {
+    grid-area: d;
+}
+
+.content-right .item-e {
+    grid-area: e;
+}
+
+.content-right .item-f {
+    grid-area: f;
+}
+
+.content-right .item-g {
+    grid-area: g;
+}
+
+.content-right .item-h {
+    grid-area: h;
+}

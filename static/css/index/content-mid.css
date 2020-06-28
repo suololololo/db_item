@@ -1,0 +1,71 @@
+.content .content-box .content-mid{
+    width: 610px;
+    height: 100%;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+}
+
+.content-mid a {
+    text-decoration: none;
+}
+
+.content-mid img {
+    width: 590px;
+}
+
+#imgList {
+    position: absolute;
+    left: 0;
+}
+
+#imgList li {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.content-mid #nav {
+    position: absolute;
+    bottom: 25px;
+}
+
+.content-mid #nav a {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-color:silver;
+    margin: 0 5px;
+}
+
+#nav a:hover {
+    background-color: white;
+}
+
+#nav a:active {
+    background-color: white;
+}
+
+#btn-left {
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 230px;
+    
+}
+
+#btn-right {
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: 230px;
+}
+
+
+
+
+
+
+
+

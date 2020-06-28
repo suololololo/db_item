@@ -1,0 +1,19 @@
+.bottom {
+    width: 870px;
+    height: 52px;
+    margin: 10px auto 0 auto;
+}
+
+.bottom .z {
+    float: right;
+    width: 104px;
+    height: 100%;
+    background-color: #e54346;
+    line-height: 52px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.z a {
+    color: #fff;
+}

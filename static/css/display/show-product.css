@@ -1,0 +1,56 @@
+.show {
+    float: left;
+    width: 1020px;
+    margin-left: 30px;
+}
+
+.show .goods {
+    float: left;
+    width: 220px;
+    height: 368px;
+    margin-right: 10px;
+    padding: 12px 9px;
+}
+
+.goods .p-img {
+    margin-bottom: 10px;
+}
+
+.goods .p-img img {
+    width: 220px;
+}
+
+.goods .p-price {
+    line-height: 22px;
+    height: 22px;
+    margin-bottom: 4px;
+    color: #e4393c;
+    font-size: 20px;
+    text-indent: 1em;
+}
+
+.goods .p-name {
+    margin-bottom: 4px;
+    color: #666;
+    font-size: 12px;
+    text-indent: 2em;
+}
+
+.goods .p-shop {
+    line-height: 18px;
+    height: 18px;
+    margin-bottom: 4px;
+    color: #666;
+    font-size: 12px;
+    text-indent: 2em;
+}
+
+.goods .p-link {
+    text-indent: 1.3em;
+}
+
+.goods .p-link a{
+    color: #e4393c;
+    font-size: 12px;
+    
+}

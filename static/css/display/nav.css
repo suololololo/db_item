@@ -1,0 +1,162 @@
+.content .nav {
+    float: left;
+    width: 152px;
+    font-size: 14px;
+    /* margin-left: 45px; */
+    /* border: 1px solid #ddd; */
+}
+
+.nav .hot {
+    width: 92%;
+    height: 80px;
+    border-bottom: 1px dashed #85878c;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas: 'a a'  'b c'  'd e';
+}
+
+.nav .hot .nav-headline {
+    grid-area: a;
+}
+
+.hot .nav-headline img {
+    height: 15px;
+}
+
+.nav .hot .item-1 {
+    grid-area: b;
+    color: #85878c;
+}
+
+.nav .hot .item-2 {
+    grid-area: c;
+    color: #85878c;
+}
+
+.nav .hot .item-3 {
+    grid-area: d;
+    color: #85878c;
+}
+
+.nav .hot .item-4 {
+    grid-area: e;
+    color: #85878c;
+}
+
+.nav .computer {
+    width: 92%;
+    height: 80px;
+    border-bottom: 1px dashed #85878c;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas: 'a a'  'b c'  'd e';
+}
+
+.nav .computer .nav-headline {
+    grid-area: a;
+}
+
+.computer img {
+    height: 15px;
+}
+
+.computer .item-1 {
+    grid-area: b;
+    color: #85878c;
+}
+
+.computer .item-2 {
+    grid-area: c;
+    color: #85878c;
+}
+
+.computer .item-3 {
+    grid-area: d;
+    color: #85878c;
+}
+
+.computer .item-4 {
+    grid-area: e;
+    color: #85878c;
+}
+
+.nav .video {
+    width: 92%;
+    height: 80px;
+    border-bottom: 1px dashed #85878c;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas: 'a a'  'b c'  'd e';
+}
+
+.nav .video .nav-headline {
+    grid-area: a;
+}
+
+.video img {
+    height: 15px;
+}
+
+.video .item-1 {
+    grid-area: b;
+    color: #85878c;
+}
+
+.video .item-2 {
+    grid-area: c;
+    color: #85878c;
+}
+
+.video .item-3 {
+    grid-area: d;
+    color: #85878c;
+}
+
+.video .item-4 {
+    grid-area: e;
+    color: #85878c;
+}
+
+.nav .game {
+    width: 92%;
+    height: 80px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas: 'a a'  'b c'  'd e';
+}
+
+.nav .game .nav-headline {
+    grid-area: a;
+}
+
+.game img {
+    height: 15px;
+}
+
+.game .item-1 {
+    grid-area: b;
+    color: #85878c;
+}
+
+.game .item-2 {
+    grid-area: c;
+    color: #85878c;
+}
+
+.game .item-3 {
+    grid-area: d;
+    color: #85878c;
+}
+
+.game .item-4 {
+    grid-area: e;
+    color: #85878c;
+}

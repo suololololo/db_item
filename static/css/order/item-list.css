@@ -1,0 +1,136 @@
+.mid .itemlist {
+    width: 870px;
+    float: left;
+    margin: 15px 0 0 20px;
+}
+
+.itemlist .item {
+    width: 868px;
+    height: 170px;
+    margin-bottom: 15px;
+    border: 1px solid #e8e8e8;
+}
+
+.item .p-label {
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    background-color: #f1f1f1;
+}
+
+.p-label .p-orderID {
+    float: left;
+    width: 360px;
+    color: #3c3c3c;
+    font-size: 15px;
+    text-indent: 1em;
+}
+
+.p-label .p-shop {
+    float: left;
+    width: 280px;
+    color: #3c3c3c;
+    font-size: 15px;
+}
+
+.p-label .p-time {
+    float: left;
+    color: #3c3c3c;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.item .p-info {
+    width: 100%;
+    height: 128px;
+    /* padding-top: 10px; */
+}
+
+.p-info .p-good {
+    float: left;
+    width: 310px;
+    height: 100%;
+    padding: 10px;
+}
+
+.p-good .p-img {
+    float: left;
+    margin-right: 10px;
+}
+
+.p-good .p-img img {
+    height: 82px;
+}
+
+.p-good .p-name {
+    float: left;
+    color: #3c3c3c;
+    font-size: 15px;
+}
+
+.p-good .p-attr {
+    float: left;
+    color: #3c3c3c;
+    font-size: 15px;
+}
+
+
+
+.p-info .p-price {
+    float: left;
+    width: 110px;
+    height: 100%;
+    padding-top: 10px;
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 15px;
+    border-left: 1px solid #e8e8e8;
+}
+
+.p-info .p-quantity {
+    float: left;
+    width: 80px;
+    height: 100%;
+    padding-top: 10px;
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 15px;
+    border-left: 1px solid #e8e8e8;
+}
+
+.p-info .p-sum {
+    float: left;
+    width: 110px;
+    height: 100%;
+    padding-top: 10px;
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 15px;
+    border-left: 1px solid #e8e8e8;
+}
+
+.p-info .p-status {
+    float: left;
+    width: 120px;
+    height: 100%;
+    padding-top: 10px;
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 15px;
+    border-left: 1px solid #e8e8e8;
+}
+
+.p-info .p-actions {
+    float: left;
+    width: 100px;
+    height: 100%;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-left: 1px solid #e8e8e8;
+}
+
+.p-actions a {
+    color: #3c3c3c;
+    /* font-size: 15px; */
+}

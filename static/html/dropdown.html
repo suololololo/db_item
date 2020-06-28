@@ -1,0 +1,112 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>我的购物车</title>
+        <link rel="stylesheet" href="{% static '/css/display/base.css' %}">
+        <link rel="stylesheet" href="{% static '/css/dropdown/top.css' %}">
+        <link rel="stylesheet" href="{% static '/css/dropdown/w.css' %}">
+        <link rel="stylesheet" href="{% static '/css/dropdown/bar.css' %}">
+        <link rel="stylesheet" href="{% static '/css/dropdown/item-list.css' %}">
+        <link rel="stylesheet" href="{% static '/css/dropdown/settlement.css' %}">
+        <link rel="stylesheet" href="{% static '/css/dropdown/bottom.css' %}">
+        <script type="text/javascript" src="{% static '/js/jQuery/jquery-1.12.4.min.js' %}"></script>
+        
+       
+        <script type="text/javascript" src="{% static '/js/dropdown/dropdown.js' %}"></script>
+    </head>
+
+<body>
+
+<div class="top">
+    <div class="logo">
+        <img src="{% static '/images/logo2.png' %}">
+        <div class="title">购物车</div>
+    </div>
+
+    <div class="search">
+        <form action="">
+            <input type="text" placeholder="请输入..." name="" id=""><button>搜索</button>
+        </form>
+    </div>
+</div>
+
+<div class="w">
+    <div class="headline"> 全部商品 </div>
+</div>
+
+<div class="bar">
+    <div class="t-checkbox">
+        <div class="cart-checkbox">
+            <input type="checkbox" id="allchecked" onclick="setAll()">
+            <label for></label>
+        </div>全选</div>
+    <div class="t-goods">商品</div>
+    <div class="t-shop">商家</div>
+    <div class="t-price">单价</div>
+    <div class="t-quantity">数量</div>
+    <div class="t-sum">小计</div>
+    <div class="t-action">操作</div>
+</div>
+
+<div class="item-list" id="item-list">
+{% for  data in  data %}
+    <div class="item" id="{{ data.pk }}">
+
+        <div class="p-checkbox">
+            <input type="checkbox" name="p-radio" ><label for></label>
+        </div>
+
+        <div class="p-goods">
+            <div class="p-img"><img src="{{ data.fields.goods_photo }}"></div>
+            <div class="p-name" name="test">{{ data.fields.goods_name }}</div><br>
+            <div class="p-attr">{{ data.fields.attributes }}</div>
+        </div>
+
+        <div class="p-shop">{{ data.fields.seller_name }}</div>
+
+        <div class="p-price">￥<span class="onlyPrice">{{ data.fields.prices }}</span></div>
+
+        <div class="p-quantity">
+            <input type="button" class="decrease" value="-">
+           <input type="text" class="quantity" value="1"/>
+           <input type="button" class="increase" value="+">
+        </div>
+
+        <div class="p-sum">￥<span class="onlySum">{{ data.fields.prices }}</span></div>
+
+        <div class="p-action">
+            <a href="/dropdown/?id={{ data.pk }}"class="deleteItem" >
+            删除
+            </a>
+        </div>
+
+    </div>
+  {% endfor %}
+    
+    
+</div>
+
+<div class="settlement">
+   <div class="ww">
+        <div id="calculate">结算</div>
+        <div class="price-sum">
+            总价：￥<span class="sum-price"></span>
+        </div>
+   </div>
+    
+    <div class="submit">
+        <a href="/order" id="submit-order">提交订单</a>
+    </div>
+</div>
+
+<div class="bottom">
+    <div class="link">
+        <a href="/order">查看已完成的订单</a>
+    </div>
+</div>
+
+
+</body>
+</html>

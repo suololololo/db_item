@@ -16,7 +16,8 @@
             <div class="jump-link"><a href="/register">还没有账号？点此注册</a></div>
         </div>
 
-        <form id="register" name="myform" action="/login/" method="post">{% csrf_token %}
+        <form id="register" name="myform" action="" 
+          method="post">{% csrf_token %}
             {% if message %}
                 <div style="text-align: center;color: red">{{ message }}</div>
             {% endif %}

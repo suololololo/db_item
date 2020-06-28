@@ -1,0 +1,143 @@
+.itemlist {
+    width: 870px;
+    margin: 10px auto 20px auto;
+}
+
+.itemlist .item {
+    width: 100%;
+    height: 110px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.item .p-good {
+    float: left;
+    width: 330px;
+}
+
+.p-good .p-img {
+    float: left;
+    margin-right: 15px;
+}
+
+.p-good .p-img img {
+    height: 82px;
+}
+
+.p-good .p-name {
+    color: #3c3c3c;
+    font-size: 15px;
+}
+
+.p-good .p-desc {
+    color: #3c3c3c;
+    font-size: 15px;
+}
+
+.item .p-sales {
+    float: left;
+    width: 270px;
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 15px;
+}
+
+.item .p-actions {
+    float: left;
+    width: 265px;
+    text-align: center;
+}
+
+.p-actions a {
+    color: #3c3c3c;
+    font-size: 15px;
+}
+
+.p-actions button {
+    margin-top: 10px;
+}
+
+.itemlist  .sub {
+    display: none;
+    width: 870px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.sub .sub-bar {
+    width: 100%;
+    height: 28px;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+}
+
+.sub-bar .sub-title {
+    float: left;
+    width: 210px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 14px;
+}
+
+
+.sub .sku {
+    width: 100%;
+    height: 36px;
+}
+
+.sku .p-attr {
+    float: left;
+    width: 210px;
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 15px;
+}
+
+.sku .p-price {
+    float: left;
+    width: 210px;
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 15px;
+}
+
+.p-price input {
+    width: 50px;
+}
+
+.sku .p-inventory {
+    float: left;
+    width: 210px;
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 15px;
+}
+
+.p-inventory input {
+    width: 50px;
+}
+
+.sku .onlySales {
+    float: left;
+    width: 210px;
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 15px;
+}
+
+.sub .sub-bottom {
+    width: 100%;
+    height: 40px;
+}
+
+.sub-bottom .save {
+    float: left;
+    margin-left: 75px;
+}
+
+.sub-bottom .addSKU {
+    float: right;
+    margin-right: 105px;
+}

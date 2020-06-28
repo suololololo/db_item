@@ -1,0 +1,97 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>后台管理</title>
+        <link rel="stylesheet" href="{% static '/css/display/base.css' %}">
+        <link rel="stylesheet" href="{% static '/css/backstage/top.css' %}">
+        <link rel="stylesheet" href="{% static '/css/backstage/w.css' %}">
+        <link rel="stylesheet" href="{% static '/css/backstage/bar.css' %}">
+        <link rel="stylesheet" href="{% static '/css/backstage/itemlist.css' %}">
+        <link rel="stylesheet" href="{% static '/css/backstage/bottom.css' %}">
+       
+        <script type="text/javascript" src="{% static '/js/jQuery/jquery-1.12.4.min.js' %}"> </script>
+        <script type="text/javascript" src="{% static '/js/backstage/backstage.js' %}"></script>
+        
+    </head>
+
+<body>
+
+<div class="top">
+    <div class="logo">
+        <img src="{% static '/images/logo2.png' %}">
+        <div class="title" style="">商家ID：{{ s_name }}
+            <span id=sellerID></span></br>
+            <a href="/logout" id="logout">退出登录</a>
+        </div>
+
+    </div>
+
+    <div class="search">
+        <form action="">
+            <input type="text" placeholder="请输入..." name="" id=""><button>搜索</button>
+        </form>
+    </div>
+</div>
+
+<div class="w">在售商品</div>
+
+<div class="bar">
+    <div class="t-good">商品</div>
+    <div class="t-sales">总销量</div>
+    <div class="t-actions">操作</div>
+</div>
+
+<div class="itemlist" id="itemlist">
+    {% for data in data %}
+    <div class="item">
+        <div class="p-good">
+            <div class="p-img"><img src="{{ data.fields.goods_photo }}"></div>
+            <div class="p-name">{{data.fields.goods_name }}</div>
+            <div class="p-desc">{{ data.fields.attributes }}</div>
+        </div>
+
+        <div class="p-sales">{{ data.fields.sales }}</div>
+
+        <div class="p-actions">
+            <a href="/down/?spuid={{ data.pk }}" class="takeoff">下架该商品</a></br>
+            <button class="unfold">展开详细信息</button>
+        </div>
+    </div>
+
+
+    <div class="sub">
+        <div class="sub-bar">
+            <div class="sub-title">规格</div>
+            <div class="sub-title">价格</div>
+            <div class="sub-title">库存</div>
+            <div class="sub-title">销量</div>
+        </div>
+        {% for i in data.fields.child %}
+        <div class="sku" id="{{ i.pk }}">
+            <div class="p-attr">{{ i.fields.attributes }}</div>
+            <div class="p-price">￥<input type="text" value="{{ i.fields.prices }}" class="price">
+            </div>
+            <div class="p-inventory"><input type="text" value="{{ i.fields.inventory }}" class="inventory"></div>
+            <div class="onlySales">{{ i.fields.sales }}</div>
+        </div>
+        {% endfor %}
+
+
+        <div class="sub-bottom">
+            <button class="save">保存修改</button>
+            <button class="addSKU"><a href="/new/?spu_id={{ data.pk }}">添加sku</a></button>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="bottom">
+    <div class="z">
+        <a href="/newitem/" id="addItem">上架新商品</a>
+    </div>
+</div>
+
+</body>
+</html>

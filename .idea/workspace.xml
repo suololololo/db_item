@@ -1,165 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="374f8aa7-2ff6-4c05-b4c9-6e3473675976" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_item/CsrfMiddleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_item/migrations/0002_auto_20200625_2020.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_item/migrations/0003_auto_20200625_2049.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_item/migrations/0004_auto_20200626_1523.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_item/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/car_sECbsQc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/dropdown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/dropdown_uqTa1FE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/earphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/earphone_WHbrceK.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/financi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/game.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/game_WFKSHym.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/goods-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/goods-1_5uwouX0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/goods-1_D5LWFQg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/goods-1_Dq6JOsW.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/goods-1_Qfn3zs3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/goods-1_WILBkfs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/goods-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/goods-2_85mG6wS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/goods-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/goods-3_5LnHQWk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/goods-3_5oVweKK.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/goods-3_IYOkiJI.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/goods-3_URkPrtH.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/goods-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/goods-6_lI9Ehoi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/goods-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/hot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/iphone11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/iphone11_MVpcjSJ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/movie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/movie_zkBQ2IP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/personal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/phone-charge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/pic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/pic3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/pic3_hduAe6C.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/travel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/travel_DUsMsSJ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/travel_MXpvue3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/travel_U7RRpcM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/travel_ZTSJa6s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/travel_kvcGPmX.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/travel_mEXqMBQ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/travel_wajEwKD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/微信图片_20200328114913.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/backstage/bar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/backstage/bottom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/backstage/itemlist.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/backstage/top.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/backstage/w.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/display/bar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/display/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/display/content-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/display/nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/display/show-product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/display/top-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/dropdown/bar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/dropdown/bottom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/dropdown/item-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/dropdown/settlement.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/dropdown/top.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/dropdown/w.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/index/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/index/content-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/index/content-left.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/index/content-mid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/index/content-right.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/index/top-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/index/top-left.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/index/top-right.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/newSKU/newSKU.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/newitem/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/newitem/box-left.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/newitem/box-right.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/order/bar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/order/item-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/order/nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/order/top.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/order/w.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/product/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/product/content-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/product/content-right.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/product/top-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/product/top-left.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/product/top-right.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/product/w.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/uploadIMG/uploadIMG.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/html/400.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/html/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/html/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/html/backstage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/html/display.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/html/dropdown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/html/newSKU.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/html/newitem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/html/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/html/product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/html/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/html/uploadIMG.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/computer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/dropdown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/earphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/financi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/game.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/goods-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/goods-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/goods-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/goods-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/goods-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/goods-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/goods-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/hot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/hotel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/iphone11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/logo.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lottery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/movie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/personal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/phone-charge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/pic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/pic2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/pic3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/travel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/backstage/backstage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/dropdown/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/dropdown/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/index/slideshow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jQuery/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/newitem/newitem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/uploadIMG/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/uploadIMG/uploadIMG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/db.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/db.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="374f8aa7-2ff6-4c05-b4c9-6e3473675976" name="Default Changelist" comment="最终代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_item/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_item/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_item/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_item/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_item/migrations/0002_auto_20200601_2045.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_item/migrations/0003_auto_20200601_2047.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_item/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_item/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_item/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_item/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_item/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_item/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_item/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_item/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/html/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/html/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/html/register.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -259,7 +102,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/js/dropdown/dropdown.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="-157">
               <caret line="137" column="68" selection-start-line="137" selection-start-column="68" selection-end-line="137" selection-end-column="68" />
             </state>
           </provider>
@@ -279,6 +122,16 @@
     <findStrings>
       <find>static</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="陈嘉俊 &lt;358035351@qq.com&gt;" />
+        <option value="suololololo" />
+        <option value="jiaJun" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -428,10 +281,25 @@
       <workItem from="1590975889318" duration="3899000" />
       <workItem from="1590991541405" duration="7401000" />
     </task>
+    <task id="LOCAL-00001" summary="最终代码">
+      <created>1593342680889</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593342680889</updated>
+    </task>
+    <task id="LOCAL-00002" summary="最终代码">
+      <created>1593343139283</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593343139283</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27541000" />
+    <option name="totallyTimeSpent" value="28599000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,10 +311,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="225" y="32" width="1216" height="648" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2357513" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18297587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -457,7 +324,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.29320112" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.18953323" />
@@ -471,6 +338,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="最终代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="最终代码" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/db/__init__.py">
